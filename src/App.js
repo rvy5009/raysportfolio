@@ -6,7 +6,7 @@ import Contact from "./components/contact"
 import Projects from "./components/projects"
 import About from "./components/about"
 import Home from "./components/home"
-
+import Footer from "./components/footer"
 class App extends Component {
   render() {
     return (
@@ -26,6 +26,7 @@ class App extends Component {
           <About />
         )} />
         </div>
+        <Footer />
       </div>
     )
   }

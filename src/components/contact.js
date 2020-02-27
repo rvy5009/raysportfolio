@@ -10,7 +10,12 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        hello this is contact
+        <h1 className="contact">
+          Contact
+        </h1>
+        <div className="myContact">
+          <h2><a href="mailto:rvy5009@gmail.com" target=" ">Email me</a></h2>
+        </div>
       </div>
     )
   }

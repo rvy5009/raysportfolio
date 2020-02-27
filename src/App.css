@@ -14,19 +14,60 @@
   opacity: .8;
 }
 
-.about{
+.about, .projects, .contact, .home{
   margin-top: -400px;
+  padding: 40px;
 }
 
 header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 30px;
+  padding: 20px;
 }
 
 nav{
   display: flex;
   justify-content: space-between;
   width: 30vw;
+}
+
+a{
+  text-decoration: none;
+}
+
+.myProjects, .myContact, .myAbout{
+  margin-top: 300px;
+}
+
+.myAbout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutWords{
+  width: 40vw
+}
+.myProjects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projectImage{
+  width: 30vw;
+}
+.projectWrapper{
+  display: flex;
+}
+.projectInWrap{
+  display: flex;
+  flex-direction: row;
+}
+h2{
+  text-align: center;
+}
+.projectInner{
+  width: 30vw
 }

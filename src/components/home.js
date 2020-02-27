@@ -10,8 +10,15 @@ class Home extends Component {
   render() {
     return (
       <div>
-        Software Developer
+        <h1 className="home">
+          Software Developer
+          <div>
+            HTML,CSS and Javascript
+          </div>
+        </h1>
+
       </div>
+
     )
   }
 }
