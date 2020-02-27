@@ -1,11 +1,32 @@
-body {
-  background-image: url("https://lh3.googleusercontent.com/proxy/5Cb_te8u4y9Ru2GtYJ_9DAs39Wg68-4XVep9Ilg8n_PJQ__IdHH-eYpADriz1g1SWwm0gkkGhvPE8bdTMYzfCJ-68ta5XBDIrUBOLY8Ah8MYWim8hgT02HTIxL28qDOAeSbkHLtLfifes_ZC7cCVRtykjf7IBrGvOXMT_Q");
-  background-size: cover;
- }
- .App{
+.App{
   display: flex;
   flex-direction: column;
- }
- .projects{
-   height: 1500px
- }
+}
+
+.projects{
+  height: 150px
+}
+
+.nyc{
+  width: 100vw;
+  height: 90vh;
+  object-fit: cover;
+  opacity: .8;
+}
+
+.about{
+  margin-top: -400px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+}

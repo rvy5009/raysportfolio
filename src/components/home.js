@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-class About extends Component {
+class Home extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -10,12 +10,10 @@ class About extends Component {
   render() {
     return (
       <div>
-        <h1 className="about">
-          About
-        </h1>
-      </div>  
+        Software Developer
+      </div>
     )
   }
 }
 
-export default About
+export default Home

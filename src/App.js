@@ -5,12 +5,17 @@ import './App.css'
 import Contact from "./components/contact"
 import Projects from "./components/projects"
 import About from "./components/about"
+import Home from "./components/home"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
+        <div>
+        <Route exact path="/home" render={() => (
+          <Home />
+        )} />
         <Route exact path="/contact" render={() => (
           <Contact />
         )} />
@@ -20,6 +25,7 @@ class App extends Component {
         <Route exact path="/about" render={() => (
           <About />
         )} />
+        </div>
       </div>
     )
   }
