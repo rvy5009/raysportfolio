@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Link, withRouter } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 class Header extends Component {
   constructor(props) {
@@ -11,16 +11,18 @@ class Header extends Component {
   render() {
     return (
       <header>
-        Raymond Yen
+        <div>
+          <Link to="/home">Raymond Yen</Link>
+        </div>
         <nav>
           <Link to="/about">about</Link>
           <Link to="/education">education</Link>
           <Link to="/projects">projects</Link>
-          <Link to="/experience">contact</Link>
+          <Link to="/contact">contact</Link>
         </nav>
       </header>
     )
   }
 }
 
-export default withRouter(Header)
+export default Header

@@ -1,30 +1,25 @@
 import React, { Component } from 'react'
-import {Link, Route} from "react-router-dom"
+import { Route } from "react-router-dom"
+import Header from "./components/header"
 import './App.css'
+import Contact from "./components/contact"
+import Projects from "./components/projects"
+import About from "./components/about"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-
-
-        <Header></Header>
-        <section id="about">
-          about
-        </section>
-        
-        <section id="projects" className="projects">Projects
-        <a href="http://raytimes.surge.sh/" target=" ">Ray Times</a>
-        <a href="http://keeping-deploy.s3-website-us-east-1.amazonaws.com/" target=" ">Keep Fitness</a>
-        <a href="http://cornerbistro.surge.sh/" target=" ">Corner Bistro</a>
-        <a href="http://raysp3.surge.sh/" target=" ">Foodstagram</a>
-        </section>
-
-
-
-        <section id="contact">
-          contact
-        </section>
+        <Header />
+        <Route exact path="/contact" render={() => (
+          <Contact />
+        )} />
+        <Route exact path="/projects" render={() => (
+          <Projects />
+        )} />
+        <Route exact path="/about" render={() => (
+          <About />
+        )} />
       </div>
     )
   }
