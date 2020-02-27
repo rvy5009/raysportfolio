@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import {Link, Route} from "react-router-dom"
+import {Link, Route} from "react-router-dom"
 import './App.css'
 
 class App extends Component {
@@ -7,12 +7,8 @@ class App extends Component {
     return (
       <div className="App">
 
-        Raymond Yen
-        <nav>
-          <a href="#about">about</a>
-          <a href="#projects">projects</a>
-          <a href="#contact">contact</a>
-        </nav>
+
+        <Header></Header>
         <section id="about">
           about
         </section>
