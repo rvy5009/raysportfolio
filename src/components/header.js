@@ -21,7 +21,7 @@ class Header extends Component {
           <nav>
             <Link to="/about" className="nav">About</Link>
             <Link to="/projects" className="nav">Projects</Link>
-            <Link to="/contact" className="nav">Contact</Link>
+
           </nav>
 
         </header>

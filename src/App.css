@@ -6,6 +6,7 @@
 }
 body{
   background-color: black;
+  font-family: 'Montserrat';
 }
 
 .projects{
@@ -22,8 +23,6 @@ body{
   width: 100vw;
 }
 
-
-
 .about, .projects, .contact, .home{
   margin-top: -300px;
   padding: 0 8vw;
@@ -35,14 +34,15 @@ header{
   flex-direction: row;
   justify-content: space-between;
   padding: 0 8vw;
-  height: 15vh;
+  height: 13vh;
   align-items: center;
 }
 
 nav{
   display: flex;
   justify-content: space-between;
-  width: 25vw;
+  width: 15vw;
+  margin: 0 5vw;
 }
 a:hover, .homeLink:hover{
   color: red;
@@ -58,10 +58,11 @@ a{
   color:white
 }
 
-
-
-.myProjects, .myContact, .myAbout{
-  margin-top: 300px;
+.myAbout{
+  margin-top: 50vh;
+}
+.myProjects{
+  margin-top: 30vh;
 }
 
 .myAbout{
@@ -71,20 +72,21 @@ a{
   align-items: center;
 }
 .aboutWords{
-  width: 40vw
+  width: 40vw;
+  padding: 2vh 0;
 }
+
 .myProjects{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .projectImage{
   width: 30vw;
 }
-.projectWrapper{
-  display: flex;
-}
+
 .projectInWrap{
   display: flex;
   flex-direction: row;
@@ -101,3 +103,42 @@ h2{
 .tech{
   font-size: 1.3em;
 }
+
+.myContact{
+  text-align: center;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 10vh 10vw 0 10vw;
+  font-size: 2vh;
+  align-items: center;
+}
+.outerFooter{
+  display: flex;
+  margin: 0 3vw;
+}
+.innerFooter{
+  margin: 0 3vw
+}
+
+.js{
+  font-size: .5em;
+}
+
+.selfPic{
+  width:100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.selfPicWrapper{
+  width:20vw;
+  height: 50vh;
+}
+
+
+
+
+
+

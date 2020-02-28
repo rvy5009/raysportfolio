@@ -12,7 +12,7 @@ class Home extends Component {
       <div>
         <h1 className="home">
           Software Developer
-          <div>
+          <div className="js">
             HTML,CSS and JavaScript
           </div>
         </h1>

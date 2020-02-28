@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import food from "../info/foodstagram.png"
 import raytimes from "../info/raytimes.png"
 import corner from "../info/corner.png"
+
 class Projects extends Component {
   constructor(props) {
     super(props)
@@ -16,7 +17,7 @@ class Projects extends Component {
           Projects          
         </h1>
         <div className="myProjects">
-          <div className="projectwrapper">
+          <div className="projectWrapper">
             <h2>
               <a href="http://raytimes.surge.sh/" target=" ">Ray Times</a>
             </h2>
@@ -31,17 +32,15 @@ class Projects extends Component {
                 </div>  
                 <div className="react">
                   React
-                </div>
-                
+                </div>              
               </div>
             </div>
           </div>
 
-          <div className="projectwrapper">
+          <div className="projectWrapper">
             <h2>
               <a href="http://cornerbistro.surge.sh/" target=" ">Corner Bistro</a>
-            </h2>
-          
+            </h2>         
           </div>
           <div className="projectInWrap">
             <a href="http://cornerbistro.surge.sh/" target=" ">
@@ -55,13 +54,11 @@ class Projects extends Component {
               </div>  
               <div className="react">
                   React
-              </div>                  
-              
+              </div>                                
             </div>
-          </div>
-          
+          </div>          
 
-          <div className="projectwrapper">
+          <div className="projectWrapper">
             <h2>
               <a href="http://raysp3.surge.sh/" target=" ">Foodstagram</a>
             </h2>          
@@ -78,11 +75,8 @@ class Projects extends Component {
               <div className="react">
                 <div>React</div>
                 <div>Node</div>
-                <div>Express</div>
-                  
-                  
-              </div>  
-              
+                <div>Express</div>                 
+              </div>               
             </div>
           </div>
         </div>
