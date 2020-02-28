@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "react-router-dom"
-import nyc from "../info/heroimage.jpeg"
+import computer from "../info/computer.jpg"
 
 class Header extends Component {
   constructor(props) {
@@ -14,17 +14,19 @@ class Header extends Component {
       <div>
         <header>
           <div>
-            <Link to="/home">Raymond Yen</Link>
+            <Link to="/home" className="homeLink">
+              Raymond Yen
+            </Link>
           </div>
           <nav>
-            <Link to="/about">about</Link>
-            <Link to="/projects">projects</Link>
-            <Link to="/contact">contact</Link>
+            <Link to="/about" className="nav">About</Link>
+            <Link to="/projects" className="nav">Projects</Link>
+            <Link to="/contact" className="nav">Contact</Link>
           </nav>
 
         </header>
-        <div>
-            <img src={nyc} className="nyc" alt="nyc" />        
+        <div className="computerWrapper">
+            <img src={computer} className="computer" alt="computer" />        
         </div>
       </div>
     )
