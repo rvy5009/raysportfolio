@@ -19,23 +19,26 @@ class Projects extends Component {
         <div className="myProjects">
           <div className="projectWrapper">
             <h2>
-              <a href="http://raytimes.surge.sh/" target=" ">Ray Times</a>
-            </h2>
-            <div className="projectInWrap">
-              <a href="http://raytimes.surge.sh/" target=" ">
-                <img src={raytimes} alt="Raytimes" className="projectImage" />
-              </a>
-              <div className="projectInner">            
-              A copy of the New York Times Website
-                <div className="tech">
-                  Technology Used:
-                </div>  
-                <div className="react">
-                  React
-                </div>              
+              <a href="http://raysp3.surge.sh/" target=" ">Foodstagram</a>
+            </h2>          
+          </div>
+          <div className="projectInWrap">
+            <a href="http://raysp3.surge.sh/" target=" ">
+              <img src={food} alt="Foodstagram" className="projectImage" />
+            </a>
+            <div className="projectInner">            
+              Instagram except for foodies
+              <div className="tech">
+                Technology Used:
               </div>
+              <div className="react">
+                <div>React</div>
+                <div>Node</div>
+                <div>Express</div>                 
+              </div>               
             </div>
           </div>
+
 
           <div className="projectWrapper">
             <h2>
@@ -60,23 +63,21 @@ class Projects extends Component {
 
           <div className="projectWrapper">
             <h2>
-              <a href="http://raysp3.surge.sh/" target=" ">Foodstagram</a>
-            </h2>          
-          </div>
-          <div className="projectInWrap">
-            <a href="http://raysp3.surge.sh/" target=" ">
-              <img src={food} alt="Foodstagram" className="projectImage" />
-            </a>
-            <div className="projectInner">            
-              Instagram except for foodies
-              <div className="tech">
-                Technology Used:
+              <a href="http://raytimes.surge.sh/" target=" ">Ray Times</a>
+            </h2>
+            <div className="projectInWrap">
+              <a href="http://raytimes.surge.sh/" target=" ">
+                <img src={raytimes} alt="Raytimes" className="projectImage" />
+              </a>
+              <div className="projectInner">            
+              A copy of the New York Times Website
+                <div className="tech">
+                  Technology Used:
+                </div>  
+                <div className="react">
+                  React
+                </div>              
               </div>
-              <div className="react">
-                <div>React</div>
-                <div>Node</div>
-                <div>Express</div>                 
-              </div>               
             </div>
           </div>
         </div>
