@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Pdf from "../info/resume.pdf";
 import self from "../info/self.jpg";
 class About extends Component {
   constructor(props) {
@@ -25,16 +24,17 @@ class About extends Component {
             to work in a collaborative, client-facing team that places consumer
             experience at the center of what they do.
           </div>
-          <a href="https://drive.google.com/u/0/uc?id=1_B_wca9VVRYsu38EZlskuzzjAUwbKwOI&export=download" target="_blank" download="Raymond Yen Resume">
-            Resume
-          </a>
+          <h2>
+            <a href="https://drive.google.com/u/0/uc?id=1_B_wca9VVRYsu38EZlskuzzjAUwbKwOI&export=download" target=" " download="Raymond Yen Resume">
+              Download Resume
+            </a>
+          </h2>
           <div className="myContact">
             <h2>
               <a href="mailto:rvy5009@gmail.com" target=" ">
                 rvy5009@gmail.com
               </a>
             </h2>
-            <h3>Cell Phone: 646-678-1190</h3>
           </div>
         </div>
       </div>

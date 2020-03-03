@@ -23,7 +23,7 @@ body{
   width: 100vw;
 }
 
-.about, .projects, .contact, .home{
+.about, .projects, .home{
   margin-top: -300px;
   padding: 0 8vw;
   color: black;
@@ -73,7 +73,7 @@ a{
 }
 .aboutWords{
   width: 40vw;
-  padding: 2vh 0;
+  padding: 3.5vh 0 1vh 0;
 }
 
 .myProjects{
@@ -84,12 +84,13 @@ a{
 }
 
 .projectImage{
-  width: 30vw;
+  width: 20vw;
 }
 
 .projectInWrap{
   display: flex;
   flex-direction: row;
+  margin: 3vh 0;
 }
 h2{
   text-align: center;
@@ -110,7 +111,7 @@ h2{
 footer{
   display: flex;
   justify-content: space-between;
-  margin: 10vh 10vw 0 10vw;
+  margin: 10vh 10vw 4vw 10vw;
   font-size: 2vh;
   align-items: center;
 }
@@ -137,7 +138,43 @@ footer{
   height: 50vh;
 }
 
+@media only screen and (max-width:800px){
+  .App {
+    background-color: green;
+  }
+  a.homeLink{
+    font-size: 1em;
+  }
+  header{
+    height: 7vh;
+  }
+  nav{
+    width: 30vw;
+  }
+  a.nav{
+    padding: 10px;
+  }
+  .computer{
+    height: 40vh;
+  }
+  .about, .projects, .home{
+    margin-top: -400px;
+    padding: 0 8vw;
+    color: black;
+  }
 
+  .selfPicWrapper{
+    width:80vw;
+    margin-top: -150px;
+  }
+  .aboutWords{
+    width: 80vw;
+  }
+  footer{
+    margin: 5px;
+  }
+  
+}
 
 
 
