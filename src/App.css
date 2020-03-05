@@ -189,9 +189,6 @@ footer{
 } */
 
 @media only screen and (max-width:400px){
-  .App {
-    background-color: green;
-  }
   a.homeLink{
     font-size: 1em;
   }
