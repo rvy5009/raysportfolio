@@ -136,58 +136,6 @@ footer{
   height: 50vh;
 }
 
-/* @media only screen and (max-width:800px){
-  .App {
-    background-color: green;
-  }
-  a.homeLink{
-    font-size: 1em;
-  }
-  header{
-    height: 7vh;
-  }
-  nav{
-    width: 30vw;
-  }
-  a.nav{
-    padding: 10px;
-  }
-  .computer{
-    height: 40vh;
-  }
-  .about, .projects, .home{
-    margin-top: -400px;
-    padding: 0 8vw;
-    color: black;
-  }
-
-  .selfPicWrapper{
-    width:80vw;
-    margin-top: -150px;
-  }
-  .aboutWords{
-    width: 80vw;
-  }
-  footer{
-    margin: 5px;
-  }
-  .myProjects{
-    margin-top: 5vh;
-  }
-
-  .projectInner{
-    width:40vw;
-
-  }
-  .tech, .react{
-    display: none;
-  }
-
-  .projectImage{
-    width:40vw;
-  }
-} */
-
 @media only screen and (max-width:400px){
   a.homeLink{
     font-size: 1em;
