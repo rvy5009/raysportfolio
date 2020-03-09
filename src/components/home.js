@@ -13,7 +13,7 @@ class Home extends Component {
         <h1 className="home">
           Software Developer
           <div className="js">
-            HTML, CSS, JavaScript, and React
+            HTML, CSS, JavaScript, React, and Git/GitHub
           </div>
         </h1>
 

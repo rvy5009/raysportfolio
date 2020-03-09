@@ -14,7 +14,7 @@ class Header extends Component {
       <div>
         <header>
           <div>
-            <Link to="/home" className="homeLink">
+            <Link to="/" className="homeLink">
               Raymond Yen
             </Link>
           </div>
