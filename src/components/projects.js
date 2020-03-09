@@ -27,7 +27,7 @@ class Projects extends Component {
               <img src={food} alt="Foodstagram" className="projectImage" />
             </a>
             <div className="projectInner">            
-              Instagram except for foodies
+              Instagram for foodies
               <div className="tech">
                 Technology Used:
               </div>
