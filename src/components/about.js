@@ -25,7 +25,7 @@ class About extends Component {
             experience at the center of what they do.
           </div>
           <h2>
-            <a href="https://drive.google.com/u/0/uc?id=1_B_wca9VVRYsu38EZlskuzzjAUwbKwOI&export=download" target=" " download="Raymond Yen Resume">
+            <a href="https://drive.google.com/file/d/1KOXFQ5zEeRhxn5xBSQCcD_877hNxOqUF/view?usp=sharing" target=" " download="Raymond Yen's Resume">
               Download Resume
             </a>
           </h2>
